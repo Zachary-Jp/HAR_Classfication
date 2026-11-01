@@ -1,0 +1,79 @@
+{
+  "seed": 42,
+  "cv_folds": 5,
+  "dimensions": [
+    20,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300
+  ],
+  "allowed_macro_f1_drop": 0.01,
+  "svm_grid": {
+    "model__C": [
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "model__gamma": [
+      "scale",
+      0.001
+    ]
+  },
+  "rf_grid": {
+    "model__max_depth": [
+      null,
+      10,
+      20
+    ],
+    "model__min_samples_leaf": [
+      1,
+      3
+    ]
+  },
+  "rf_trees": 200,
+  "timing_repeats": 15,
+  "timing_warmups": 3,
+  "latency_sample_count": 64,
+  "bootstrap_repeats": 2000,
+  "models": [
+    "RBF_SVM",
+    "RandomForest",
+    "LogisticRegression",
+    "KNN",
+    "FisherLDA"
+  ],
+  "lr_grid": {
+    "model__C": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ]
+  },
+  "knn_grid": {
+    "model__n_neighbors": [
+      3,
+      5,
+      9,
+      15
+    ],
+    "model__weights": [
+      "uniform",
+      "distance"
+    ]
+  },
+  "lda_grid": {
+    "model__shrinkage": [
+      null,
+      "auto",
+      0.05,
+      0.2,
+      0.5
+    ]
+  }
+}

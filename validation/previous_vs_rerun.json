@@ -1,0 +1,44 @@
+{
+  "common_candidate_fold_records": 2080,
+  "max_abs_score_difference": {
+    "accuracy": 0.030104712041884807,
+    "macro_f1": 0.031864269060749795,
+    "balanced_accuracy": 0.0339534609241926
+  },
+  "new_candidate_count": 480,
+  "old_candidate_count": 416,
+  "scope": "只比较共同配置的验证指标；新增加250维候选；新计时单独保留。",
+  "by_model": [
+    {
+      "model": "FisherLDA",
+      "common_fold_records": 325,
+      "records_with_f1_difference_over_1e-10": 0,
+      "max_abs_f1_difference_pp": 0.0
+    },
+    {
+      "model": "KNN",
+      "common_fold_records": 520,
+      "records_with_f1_difference_over_1e-10": 0,
+      "max_abs_f1_difference_pp": 0.0
+    },
+    {
+      "model": "LogisticRegression",
+      "common_fold_records": 325,
+      "records_with_f1_difference_over_1e-10": 191,
+      "max_abs_f1_difference_pp": 3.1864269060749795
+    },
+    {
+      "model": "RBF_SVM",
+      "common_fold_records": 520,
+      "records_with_f1_difference_over_1e-10": 0,
+      "max_abs_f1_difference_pp": 0.0
+    },
+    {
+      "model": "RandomForest",
+      "common_fold_records": 390,
+      "records_with_f1_difference_over_1e-10": 0,
+      "max_abs_f1_difference_pp": 0.0
+    }
+  ],
+  "interpretation": "共同候选中逻辑回归存在环境间分数差异，其他四模型相同；两环境Python版本/硬件不同。未通过受控实验确定差异原因，不能归因于250维新增候选。正文只使用本轮新数据。"
+}

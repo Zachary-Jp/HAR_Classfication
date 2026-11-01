@@ -1,0 +1,16 @@
+﻿selection_id,test_macro_f1_percent,batch_ms_per_window,pipeline_mib,descriptive_pareto_efficient,dominated_by_json,note
+RBF_SVM__full,95.4598407909,0.285665354598,6.31073474884,False,"[""FisherLDA__full"", ""FisherLDA__pca""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+RBF_SVM__pca,94.2737247604,0.130174211062,2.36995124817,False,"[""LogisticRegression__full"", ""LogisticRegression__pca"", ""FisherLDA__full"", ""FisherLDA__pca""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+RBF_SVM__anova,93.6032615983,0.0859840515779,1.23518943787,False,"[""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+RandomForest__full,92.5570480292,0.0173614183916,2.17398738861,False,"[""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__pca"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+RandomForest__pca,88.7718732951,0.0273390906006,7.91843795776,False,"[""RandomForest__full"", ""RandomForest__anova"", ""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__full"", ""FisherLDA__pca"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+RandomForest__anova,89.8431417521,0.0151787919919,2.31455230713,False,"[""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__full"", ""FisherLDA__pca"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+LogisticRegression__full,95.4373580087,0.00232639972854,0.0367965698242,True,[],仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+LogisticRegression__pca,94.5775138322,0.00661367492365,0.834592819214,False,"[""LogisticRegression__full""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+LogisticRegression__anova,93.7573202807,0.00298242280285,0.0264444351196,True,[],仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+KNN__full,88.6850102912,0.163185612487,28.3238191605,False,"[""RBF_SVM__pca"", ""RBF_SVM__anova"", ""RandomForest__full"", ""RandomForest__pca"", ""RandomForest__anova"", ""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__full"", ""FisherLDA__pca"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+KNN__pca,88.4597697257,0.0624612147947,8.75652885437,False,"[""RandomForest__full"", ""RandomForest__pca"", ""RandomForest__anova"", ""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__full"", ""FisherLDA__pca"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+KNN__anova,86.902583501,0.0458502205633,4.58577060699,False,"[""RandomForest__full"", ""RandomForest__anova"", ""LogisticRegression__full"", ""LogisticRegression__pca"", ""LogisticRegression__anova"", ""FisherLDA__full"", ""FisherLDA__pca"", ""FisherLDA__anova""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+FisherLDA__full,96.2574841301,0.00241598235494,2.24317932129,True,[],仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+FisherLDA__pca,95.9468765365,0.0086145911096,1.90742301941,True,[],仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。
+FisherLDA__anova,93.6105861612,0.00298069222939,0.271557807922,False,"[""LogisticRegression__full""]",仅为固定测试结果及本机计时的描述性比较，不是独立选模证据。

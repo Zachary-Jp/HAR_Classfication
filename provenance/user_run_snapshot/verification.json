@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "n_test_models": 15,
+  "n_cv_candidates": 416,
+  "checks": [
+    "人员隔离",
+    "折分配完整性",
+    "CV均值/标准差复算",
+    "维数选择规则",
+    "选择锁与事件顺序",
+    "测试总体/逐人员指标复算",
+    "模型文件哈希和体积"
+  ],
+  "scope": "复算和文件一致性检查，不是全部参数重训；本地记录不是不可篡改的证据。",
+  "extended_search_plan": "PASS",
+  "confusion_matrix_recomputed": "PASS",
+  "class_metrics_recomputed": "PASS",
+  "original_data_matched": "PASS",
+  "timing_quantiles_recomputed": "PASS",
+  "all_configured_combinations_evaluated": true,
+  "checked_at_utc": "2026-10-25T15:13:14.547120+00:00"
+}

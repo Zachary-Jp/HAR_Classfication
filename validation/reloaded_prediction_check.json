@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "selection_id": "RBF_SVM__full",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "RBF_SVM__pca",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "RBF_SVM__anova",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "RandomForest__full",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "RandomForest__pca",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "RandomForest__anova",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "LogisticRegression__full",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "LogisticRegression__pca",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "LogisticRegression__anova",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "KNN__full",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "KNN__pca",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "KNN__anova",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "FisherLDA__full",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "FisherLDA__pca",
+      "predictions": 2947,
+      "mismatches": 0
+    },
+    {
+      "selection_id": "FisherLDA__anova",
+      "predictions": 2947,
+      "mismatches": 0
+    }
+  ],
+  "total_predictions": 44205,
+  "total_mismatches": 0,
+  "scope": "重新载入已保存模型并预测；不是再次训练整个参数搜索。"
+}

@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-10-25T14:38:22.222090+00:00",
+  "dataset": "UCI HAR",
+  "synthetic": false,
+  "python": "3.11.17",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "joblib": "1.5.3",
+  "seed": 42,
+  "models": [
+    "RBF_SVM",
+    "RandomForest",
+    "LogisticRegression",
+    "KNN",
+    "FisherLDA"
+  ],
+  "prior_test_exposure": true,
+  "search_engine": "compact-five-models-fisher-shrinkage-1.1",
+  "status": "completed",
+  "workers": 2,
+  "resumed": false,
+  "completed_at_utc": "2026-10-25T15:13:12.485563+00:00",
+  "elapsed_seconds": 2090.262021800001,
+  "selection_lock_sha256": "040a0cab89bba63b53fe4b5744e87524eabb60fcf687784f52baed074a3610d9",
+  "n_candidates": 416,
+  "n_cv_fits": 2080,
+  "n_final_models": 15,
+  "n_protocol_fits": 50,
+  "elapsed_scope": "当前调用用时；断点此前耗时见各任务记录，不冒称从头运行总时长。"
+}

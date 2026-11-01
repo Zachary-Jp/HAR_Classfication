@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "pages": 14,
+  "tables": 12,
+  "figures": 8,
+  "references": 15,
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "text_spans_outside_page": [],
+  "three_line_tables": true,
+  "body_two_columns_with_wide_tables": true,
+  "author_fields": "作者姓名、学校学院、邮编和学号未提供，保留待填写；课程已填写机器学习。",
+  "format_scope": "参照公开CJC适配模板体例，不宣称符合最新官方全部投稿要求。",
+  "source_run": "outputs/integrated_rerun",
+  "report_results_from_current_run": true,
+  "not_claimed": [
+    "新算法",
+    "全人群显著优越性",
+    "手机功耗节省",
+    "从未查看过的全新测试",
+    "跨环境逐位复现"
+  ]
+}

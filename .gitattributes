@@ -1,0 +1,20 @@
+# Python/Markdown use a consistent line ending across Windows and Linux.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Frozen evidence and data are checked by byte hashes; never convert their newlines.
+outputs/20261027/** -text
+"data/UCI HAR Dataset/**" -text
+*.csv -text
+*.json -text
+*.jsonl -text
+report/** -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.joblib binary

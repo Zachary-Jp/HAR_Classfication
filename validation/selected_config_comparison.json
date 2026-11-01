@@ -1,0 +1,111 @@
+{
+  "all_same": true,
+  "rows": [
+    {
+      "selection_id": "RBF_SVM__full",
+      "old_k": 561,
+      "new_k": 561,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "RBF_SVM__pca",
+      "old_k": 150,
+      "new_k": 150,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "RBF_SVM__anova",
+      "old_k": 200,
+      "new_k": 200,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "RandomForest__full",
+      "old_k": 561,
+      "new_k": 561,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "RandomForest__pca",
+      "old_k": 200,
+      "new_k": 200,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "RandomForest__anova",
+      "old_k": 200,
+      "new_k": 200,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "LogisticRegression__full",
+      "old_k": 561,
+      "new_k": 561,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "LogisticRegression__pca",
+      "old_k": 200,
+      "new_k": 200,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "LogisticRegression__anova",
+      "old_k": 200,
+      "new_k": 200,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "KNN__full",
+      "old_k": 561,
+      "new_k": 561,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "KNN__pca",
+      "old_k": 150,
+      "new_k": 150,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "KNN__anova",
+      "old_k": 100,
+      "new_k": 100,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "FisherLDA__full",
+      "old_k": 561,
+      "new_k": 561,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "FisherLDA__pca",
+      "old_k": 300,
+      "new_k": 300,
+      "same_parameters": true,
+      "same_cv_status": true
+    },
+    {
+      "selection_id": "FisherLDA__anova",
+      "old_k": 200,
+      "new_k": 200,
+      "same_parameters": true,
+      "same_cv_status": true
+    }
+  ],
+  "scope": "仅验证选定配置，不以此宣称新测试或计时结果相同。"
+}

@@ -1,0 +1,60 @@
+test_completed_checkpoints_reused (test_compact_runner.CompactTests.test_completed_checkpoints_reused) ... ok
+test_duplicate_shrinkage_rejected (test_compact_runner.CompactTests.test_duplicate_shrinkage_rejected) ... ok
+test_fisher_fingerprint_changes (test_compact_runner.CompactTests.test_fisher_fingerprint_changes) ... ok
+test_fisher_grid_is_five_distinct_configs (test_compact_runner.CompactTests.test_fisher_grid_is_five_distinct_configs) ... ok
+test_fisher_is_classifier_not_transformer (test_compact_runner.CompactTests.test_fisher_is_classifier_not_transformer) ... ok
+test_invalid_shrinkage_rejected (test_compact_runner.CompactTests.test_invalid_shrinkage_rejected) ... ok
+test_new_model_has_no_fake_old_grid_result (test_compact_runner.CompactTests.test_new_model_has_no_fake_old_grid_result) ... ok
+test_old_grid_subset (test_compact_runner.CompactTests.test_old_grid_subset) ... ok
+test_plan_counts (test_compact_runner.CompactTests.test_plan_counts) ... ok
+test_seed_plan_repeatable (test_compact_runner.CompactTests.test_seed_plan_repeatable) ... ok
+test_selection_lock_not_overwritten (test_compact_runner.CompactTests.test_selection_lock_not_overwritten) ... ok
+test_audit_disjoint_people (test_core.CoreTests.test_audit_disjoint_people) ... ok
+test_audit_rejects_people_overlap (test_core.CoreTests.test_audit_rejects_people_overlap) ... ok
+test_clone_and_repeat_predictions (test_core.CoreTests.test_clone_and_repeat_predictions) ... ok
+test_default_config (test_core.CoreTests.test_default_config) ... ok
+test_feature_dimension_bound (test_core.CoreTests.test_feature_dimension_bound) ... ok
+test_group_folds_repeatable (test_core.CoreTests.test_group_folds_repeatable) ... ok
+test_group_isolation_and_coverage (test_core.CoreTests.test_group_isolation_and_coverage) ... ok
+test_identical_prediction_metrics (test_core.CoreTests.test_identical_prediction_metrics) ... ok
+test_missing_subject_file_rejected (test_core.CoreTests.test_missing_subject_file_rejected) ... ok
+test_no_synthetic_fallback_when_download_fails (test_core.CoreTests.test_no_synthetic_fallback_when_download_fails) ... [Data] Downloading https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip
+[Data] Downloading https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
+ok
+test_pca_dimension (test_core.CoreTests.test_pca_dimension) ... ok
+test_plot_rejects_synthetic (test_core.CoreTests.test_plot_rejects_synthetic) ... ok
+test_repeated_dimensions_rejected (test_core.CoreTests.test_repeated_dimensions_rejected) ... ok
+test_safe_nested_zip_and_loading (test_core.CoreTests.test_safe_nested_zip_and_loading) ... ok
+test_scaler_only_fits_supplied_training_rows (test_core.CoreTests.test_scaler_only_fits_supplied_training_rows) ... ok
+test_selection_dimension (test_core.CoreTests.test_selection_dimension) ... ok
+test_smallest_acceptable_k_and_failure_branch (test_core.CoreTests.test_smallest_acceptable_k_and_failure_branch) ... ok
+test_subject_not_in_input (test_core.CoreTests.test_subject_not_in_input) ... ok
+test_tolerance_unit (test_core.CoreTests.test_tolerance_unit) ... ok
+test_verifier_rejects_incomplete_and_synthetic (test_core.CoreTests.test_verifier_rejects_incomplete_and_synthetic) ... ok
+test_cached_transform_equals_standard_pipeline (test_search.SearchTests.test_cached_transform_equals_standard_pipeline) ... ok
+test_five_models_and_candidate_budget (test_search.SearchTests.test_five_models_and_candidate_budget) ... ok
+test_new_classifiers (test_search.SearchTests.test_new_classifiers) ... ok
+test_rejects_fold_leakage (test_search.SearchTests.test_rejects_fold_leakage) ... ok
+test_validation_changes_do_not_change_training_transform (test_search.SearchTests.test_validation_changes_do_not_change_training_transform) ... ok
+test_batch_larger_than_data_rejected (test_stage_timing.StageTimingTests.test_batch_larger_than_data_rejected) ... ok
+test_default_config (test_stage_timing.StageTimingTests.test_default_config) ... ok
+test_integration_and_recalculation (test_stage_timing.StageTimingTests.test_integration_and_recalculation) ... ok
+test_invalid_repeat_rejected (test_stage_timing.StageTimingTests.test_invalid_repeat_rejected) ... ok
+test_medians (test_stage_timing.StageTimingTests.test_medians) ... ok
+test_repeated_batches_rejected (test_stage_timing.StageTimingTests.test_repeated_batches_rejected) ... ok
+test_confusion_white_to_dark_blue (test_visuals.VisualTests.test_confusion_white_to_dark_blue) ... ok
+test_counts_only_in_matrix (test_visuals.VisualTests.test_counts_only_in_matrix) ... ok
+test_duplicate_heatmap_cell_rejected (test_visuals.VisualTests.test_duplicate_heatmap_cell_rejected) ... ok
+test_fisher_parameter_heatmap (test_visuals.VisualTests.test_fisher_parameter_heatmap) ... ok
+test_layout_detection (test_visuals.VisualTests.test_layout_detection) ... ok
+test_missing_heatmap_cell_not_zero (test_visuals.VisualTests.test_missing_heatmap_cell_not_zero) ... ok
+test_no_lower_left_note (test_visuals.VisualTests.test_no_lower_left_note) ... ok
+test_no_report_generator (test_visuals.VisualTests.test_no_report_generator) ... ok
+test_reordering_preserves_data (test_visuals.VisualTests.test_reordering_preserves_data) ... ok
+test_shared_count_color_range (test_visuals.VisualTests.test_shared_count_color_range) ... ok
+test_synthetic_module_integration (test_workflow.WorkflowTest.test_synthetic_module_integration) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 2.253s
+
+OK

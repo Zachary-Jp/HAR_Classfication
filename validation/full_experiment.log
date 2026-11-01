@@ -1,0 +1,93 @@
+[Plan] RBF_SVM: 8 combinations per representation; finite exhaustive grid
+[Plan] RandomForest: 6 combinations per representation; finite exhaustive grid
+[Plan] LogisticRegression: 5 combinations per representation; finite exhaustive grid
+[Plan] KNN: 8 combinations per representation; finite exhaustive grid
+[Plan] FisherLDA: 5 combinations per representation; finite exhaustive grid
+[Plan] 15 representations/model; 480 candidates; 2400 primary CV fits; 50 fixed-parameter protocol fits; 15 final models.
+[Search] 480 candidates, 2400 fold fits; reused checkpoints=0
+[Prepare] fold=1/5; subject-disjoint transform ready
+[Prepare] fold=2/5; subject-disjoint transform ready
+[Prepare] fold=3/5; subject-disjoint transform ready
+[Prepare] fold=4/5; subject-disjoint transform ready
+[Prepare] fold=5/5; subject-disjoint transform ready
+[Search] 50/2400 completed
+[Search] 100/2400 completed
+[Search] 150/2400 completed
+[Search] 200/2400 completed
+[Search] 250/2400 completed
+[Search] 300/2400 completed
+[Search] 350/2400 completed
+[Search] 400/2400 completed
+[Search] 450/2400 completed
+[Search] 500/2400 completed
+[Search] 550/2400 completed
+[Search] 600/2400 completed
+[Search] 650/2400 completed
+[Search] 700/2400 completed
+[Search] 750/2400 completed
+[Search] 800/2400 completed
+[Search] 850/2400 completed
+[Search] 900/2400 completed
+[Search] 950/2400 completed
+[Search] 1000/2400 completed
+[Search] 1050/2400 completed
+[Search] 1100/2400 completed
+[Search] 1150/2400 completed
+[Search] 1200/2400 completed
+[Search] 1250/2400 completed
+[Search] 1300/2400 completed
+[Search] 1350/2400 completed
+[Search] 1400/2400 completed
+[Search] 1450/2400 completed
+[Search] 1500/2400 completed
+[Search] 1550/2400 completed
+[Search] 1600/2400 completed
+[Search] 1650/2400 completed
+[Search] 1700/2400 completed
+[Search] 1750/2400 completed
+[Search] 1800/2400 completed
+[Search] 1850/2400 completed
+[Search] 1900/2400 completed
+[Search] 1950/2400 completed
+[Search] 2000/2400 completed
+[Search] 2050/2400 completed
+[Search] 2100/2400 completed
+[Search] 2150/2400 completed
+[Search] 2200/2400 completed
+[Search] 2250/2400 completed
+[Search] 2300/2400 completed
+[Search] 2350/2400 completed
+[Search] 2400/2400 completed
+[Protocol] RBF_SVM / subject_grouped finished (fixed parameters)
+[Protocol] RBF_SVM / random_windows finished (fixed parameters)
+[Protocol] RandomForest / subject_grouped finished (fixed parameters)
+[Protocol] RandomForest / random_windows finished (fixed parameters)
+[Protocol] LogisticRegression / subject_grouped finished (fixed parameters)
+[Protocol] LogisticRegression / random_windows finished (fixed parameters)
+[Protocol] KNN / subject_grouped finished (fixed parameters)
+[Protocol] KNN / random_windows finished (fixed parameters)
+[Protocol] FisherLDA / subject_grouped finished (fixed parameters)
+[Protocol] FisherLDA / random_windows finished (fixed parameters)
+[Test] RBF_SVM__full / k=561: Accuracy=95.5209%, Macro-F1=95.4598%
+[Test] RBF_SVM__pca / k=150: Accuracy=94.3672%, Macro-F1=94.2737%
+[Test] RBF_SVM__anova / k=200: Accuracy=93.6206%, Macro-F1=93.6033%
+[Test] RandomForest__full / k=561: Accuracy=92.7723%, Macro-F1=92.5570%
+[Test] RandomForest__pca / k=200: Accuracy=89.1754%, Macro-F1=88.7719%
+[Test] RandomForest__anova / k=200: Accuracy=90.0577%, Macro-F1=89.8431%
+[Test] LogisticRegression__full / k=561: Accuracy=95.5209%, Macro-F1=95.5050%
+[Test] LogisticRegression__pca / k=200: Accuracy=94.5368%, Macro-F1=94.5443%
+[Test] LogisticRegression__anova / k=200: Accuracy=93.6546%, Macro-F1=93.7672%
+[Test] KNN__full / k=561: Accuracy=89.0397%, Macro-F1=88.6850%
+[Test] KNN__pca / k=150: Accuracy=88.8022%, Macro-F1=88.4598%
+[Test] KNN__anova / k=100: Accuracy=87.3431%, Macro-F1=86.9026%
+[Test] FisherLDA__full / k=561: Accuracy=96.2335%, Macro-F1=96.2575%
+[Test] FisherLDA__pca / k=300: Accuracy=95.9620%, Macro-F1=95.9469%
+[Test] FisherLDA__anova / k=200: Accuracy=93.6206%, Macro-F1=93.6106%
+[StageTiming] batch=1; 15 pipelines x 15 repeats finished
+[StageTiming] batch=32; 15 pipelines x 15 repeats finished
+[StageTiming] batch=256; 15 pipelines x 15 repeats finished
+[StageTiming] batch=2947; 15 pipelines x 15 repeats finished
+[Verify] Stage timing PASS: 3600 records
+[Verify] PASS: 480 candidates; predictions, confusion matrices and metrics agree.
+[Figures] 52 clean charts generated.
+[Done] /mnt/data/HAR_Integrated_Rerun/outputs/integrated_rerun

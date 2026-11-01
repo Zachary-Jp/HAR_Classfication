@@ -1,0 +1,147 @@
+{
+  "version": "compact-five-models-fisher-shrinkage-1.1",
+  "seed": 42,
+  "parameter_sets": {
+    "RBF_SVM": [
+      {
+        "model__C": 1.0,
+        "model__gamma": "scale"
+      },
+      {
+        "model__C": 1.0,
+        "model__gamma": 0.001
+      },
+      {
+        "model__C": 10.0,
+        "model__gamma": "scale"
+      },
+      {
+        "model__C": 10.0,
+        "model__gamma": 0.001
+      },
+      {
+        "model__C": 100.0,
+        "model__gamma": "scale"
+      },
+      {
+        "model__C": 100.0,
+        "model__gamma": 0.001
+      },
+      {
+        "model__C": 1000.0,
+        "model__gamma": "scale"
+      },
+      {
+        "model__C": 1000.0,
+        "model__gamma": 0.001
+      }
+    ],
+    "RandomForest": [
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 1
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 3
+      },
+      {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 1
+      },
+      {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 3
+      },
+      {
+        "model__max_depth": 20,
+        "model__min_samples_leaf": 1
+      },
+      {
+        "model__max_depth": 20,
+        "model__min_samples_leaf": 3
+      }
+    ],
+    "LogisticRegression": [
+      {
+        "model__C": 0.01
+      },
+      {
+        "model__C": 0.1
+      },
+      {
+        "model__C": 1.0
+      },
+      {
+        "model__C": 10.0
+      },
+      {
+        "model__C": 100.0
+      }
+    ],
+    "KNN": [
+      {
+        "model__n_neighbors": 3,
+        "model__weights": "uniform"
+      },
+      {
+        "model__n_neighbors": 3,
+        "model__weights": "distance"
+      },
+      {
+        "model__n_neighbors": 5,
+        "model__weights": "uniform"
+      },
+      {
+        "model__n_neighbors": 5,
+        "model__weights": "distance"
+      },
+      {
+        "model__n_neighbors": 9,
+        "model__weights": "uniform"
+      },
+      {
+        "model__n_neighbors": 9,
+        "model__weights": "distance"
+      },
+      {
+        "model__n_neighbors": 15,
+        "model__weights": "uniform"
+      },
+      {
+        "model__n_neighbors": 15,
+        "model__weights": "distance"
+      }
+    ],
+    "FisherLDA": [
+      {
+        "model__shrinkage": null
+      },
+      {
+        "model__shrinkage": "auto"
+      },
+      {
+        "model__shrinkage": 0.05
+      },
+      {
+        "model__shrinkage": 0.2
+      },
+      {
+        "model__shrinkage": 0.5
+      }
+    ]
+  },
+  "parameter_counts": {
+    "RBF_SVM": 8,
+    "RandomForest": 6,
+    "LogisticRegression": 5,
+    "KNN": 8,
+    "FisherLDA": 5
+  },
+  "representations_per_model": 13,
+  "n_candidates": 416,
+  "n_cv_fits": 2080,
+  "n_protocol_fits": 50,
+  "n_final_models": 15,
+  "scope": "五模型均完整遍历给定有限网格；不是全局最优搜索。"
+}

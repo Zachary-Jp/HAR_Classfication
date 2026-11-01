@@ -1,0 +1,16 @@
+﻿模型与方案,维数,分类器参数（其余设置见正文）
+SVM / 全特征,561,C=10.0；gamma=0.001
+SVM / PCA,150,C=10.0；gamma=0.001
+SVM / ANOVA,200,C=100.0；gamma=0.001
+RF / 全特征,561,max_depth=20；min_samples_leaf=3
+RF / PCA,200,max_depth=None；min_samples_leaf=1
+RF / ANOVA,200,max_depth=None；min_samples_leaf=1
+LR / 全特征,561,C=1.0
+LR / PCA,200,C=1.0
+LR / ANOVA,200,C=1.0
+KNN / 全特征,561,n_neighbors=15；weights=distance
+KNN / PCA,150,n_neighbors=15；weights=distance
+KNN / ANOVA,100,n_neighbors=15；weights=uniform
+LDA / 全特征,561,shrinkage=None
+LDA / PCA,300,shrinkage=auto
+LDA / ANOVA,200,shrinkage=None

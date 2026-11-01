@@ -1,0 +1,35 @@
+{
+  "config_changes": {
+    "dimensions": {
+      "archive": [
+        20,
+        50,
+        100,
+        150,
+        200,
+        300
+      ],
+      "notebook": [
+        20,
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ]
+    }
+  },
+  "added_functions": [
+    "benchmark_stages",
+    "stage_timing_plots",
+    "PCA_vs_full_with_timing_breakdown"
+  ],
+  "base64_not_duplicated": "保留同目录官方数据，不复制41MB编码；八文件哈希验证Notebook内嵌版本一致。",
+  "grid_counts": {
+    "previous_candidates": 416,
+    "integrated_candidates": 480,
+    "integrated_cv_fits": 2400
+  },
+  "interrupted_attempt": "发现250维配置差异后停止旧网格预执行，未用于报告，最终重新从空目录运行。"
+}

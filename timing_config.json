@@ -1,0 +1,11 @@
+{
+  "batch_sizes": [
+    1,
+    32,
+    256,
+    2947
+  ],
+  "repeats": 15,
+  "warmups": 3,
+  "seed": 42
+}

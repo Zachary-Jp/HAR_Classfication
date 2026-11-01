@@ -1,0 +1,98 @@
+[
+  {
+    "selection_id": "RBF_SVM__full",
+    "classifier_input_features": 561,
+    "support_vectors": 1609
+  },
+  {
+    "selection_id": "RBF_SVM__pca",
+    "classifier_input_features": 150,
+    "support_vectors": 1546
+  },
+  {
+    "selection_id": "RBF_SVM__anova",
+    "classifier_input_features": 200,
+    "support_vectors": 925
+  },
+  {
+    "selection_id": "RandomForest__full",
+    "classifier_input_features": 561,
+    "n_trees": 200,
+    "mean_tree_nodes": 429.73,
+    "mean_tree_depth": 16.64
+  },
+  {
+    "selection_id": "RandomForest__pca",
+    "classifier_input_features": 200,
+    "n_trees": 200,
+    "mean_tree_nodes": 1712.21,
+    "mean_tree_depth": 25.305
+  },
+  {
+    "selection_id": "RandomForest__anova",
+    "classifier_input_features": 200,
+    "n_trees": 200,
+    "mean_tree_nodes": 511.53,
+    "mean_tree_depth": 17.775
+  },
+  {
+    "selection_id": "LogisticRegression__full",
+    "classifier_input_features": 561,
+    "coef_shape": [
+      6,
+      561
+    ]
+  },
+  {
+    "selection_id": "LogisticRegression__pca",
+    "classifier_input_features": 200,
+    "coef_shape": [
+      6,
+      200
+    ]
+  },
+  {
+    "selection_id": "LogisticRegression__anova",
+    "classifier_input_features": 200,
+    "coef_shape": [
+      6,
+      200
+    ]
+  },
+  {
+    "selection_id": "KNN__full",
+    "classifier_input_features": 561
+  },
+  {
+    "selection_id": "KNN__pca",
+    "classifier_input_features": 150
+  },
+  {
+    "selection_id": "KNN__anova",
+    "classifier_input_features": 100
+  },
+  {
+    "selection_id": "FisherLDA__full",
+    "classifier_input_features": 561,
+    "coef_shape": [
+      6,
+      561
+    ]
+  },
+  {
+    "selection_id": "FisherLDA__pca",
+    "classifier_input_features": 300,
+    "coef_shape": [
+      6,
+      300
+    ]
+  },
+  {
+    "selection_id": "FisherLDA__anova",
+    "classifier_input_features": 200,
+    "coef_shape": [
+      6,
+      200
+    ]
+  }
+]

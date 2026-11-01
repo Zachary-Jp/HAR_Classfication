@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.fit_cache/
+data/UCI HAR Dataset/
+data/*.zip
+outputs/

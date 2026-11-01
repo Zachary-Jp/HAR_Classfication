@@ -1,0 +1,10 @@
+﻿内容,源文件
+表1、数据描述,data_audit.json；splits/official_test.csv
+表2、方法设置,config_frozen.json；search_plan.json
+表3、选择与测试,tables/selected_configs.csv；tables/test_metrics.csv
+图1～2、表4,tables/compression_curve.csv；tables/cv_candidates.csv
+表5、图3,tables/protocol_comparison.csv
+图4～5、表6,tables/test_predictions.csv；test_subjects.csv；subject_bootstrap.csv
+表7～8、图6～8,tables/stage_timing_summary.csv；stage_timing_raw.csv；final_fit_and_size.csv
+核验结论,verification.json；stage_timing_verification.json；validation/
+整合差异,provenance/notebook_merge_diff.json；docs/Notebook整合说明.md

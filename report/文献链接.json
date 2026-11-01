@@ -1,0 +1,77 @@
+[
+  {
+    "number": 1,
+    "reference": "Anguita D, Ghio A, Oneto L, Parra X, Reyes-Ortiz J L. A public domain dataset for human activity recognition using smartphones//Proceedings of the 21st European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning. Bruges, Belgium, 2013: 437–442.",
+    "url": "https://www.esann.org/sites/default/files/proceedings/legacy/es2013-84.pdf"
+  },
+  {
+    "number": 2,
+    "reference": "Reyes-Ortiz J, Anguita D, Ghio A, Oneto L, Parra X. Human Activity Recognition Using Smartphones [Dataset]. UCI Machine Learning Repository, 2013. DOI: 10.24432/C54S4K.",
+    "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones"
+  },
+  {
+    "number": 3,
+    "reference": "Dehghani A, Sarbishei O, Glatard T, Shihab E. A quantitative comparison of overlapping and non-overlapping sliding windows for human activity recognition using inertial sensors. Sensors, 2019, 19(22): 5026.",
+    "url": "https://doi.org/10.3390/s19225026"
+  },
+  {
+    "number": 4,
+    "reference": "Jolliffe I T, Cadima J. Principal component analysis: a review and recent developments. Philosophical Transactions of the Royal Society A, 2016, 374(2065): 20150202.",
+    "url": "https://doi.org/10.1098/rsta.2015.0202"
+  },
+  {
+    "number": 5,
+    "reference": "Guyon I, Elisseeff A. An introduction to variable and feature selection. Journal of Machine Learning Research, 2003, 3: 1157–1182.",
+    "url": "https://www.jmlr.org/papers/v3/guyon03a.html"
+  },
+  {
+    "number": 6,
+    "reference": "Pedregosa F, Varoquaux G, Gramfort A, et al. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 2011, 12: 2825–2830.",
+    "url": "https://www.jmlr.org/papers/v12/pedregosa11a.html"
+  },
+  {
+    "number": 7,
+    "reference": "Cortes C, Vapnik V. Support-vector networks. Machine Learning, 1995, 20: 273–297.",
+    "url": "https://doi.org/10.1007/BF00994018"
+  },
+  {
+    "number": 8,
+    "reference": "Breiman L. Random forests. Machine Learning, 2001, 45: 5–32.",
+    "url": "https://doi.org/10.1023/A:1010933404324"
+  },
+  {
+    "number": 9,
+    "reference": "Cover T, Hart P. Nearest neighbor pattern classification. IEEE Transactions on Information Theory, 1967, 13(1): 21–27.",
+    "url": "https://doi.org/10.1109/TIT.1967.1053964"
+  },
+  {
+    "number": 10,
+    "reference": "Fisher R A. The use of multiple measurements in taxonomic problems. Annals of Eugenics, 1936, 7(2): 179–188.",
+    "url": "https://doi.org/10.1111/j.1469-1809.1936.tb02137.x"
+  },
+  {
+    "number": 11,
+    "reference": "Scikit-learn developers. LogisticRegression. Scikit-learn 1.8.0 documentation [EB/OL]. [2026-10-27].",
+    "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.linear_model.LogisticRegression.html"
+  },
+  {
+    "number": 12,
+    "reference": "Scikit-learn developers. StratifiedGroupKFold. Scikit-learn 1.8.0 documentation [EB/OL]. [2026-10-27].",
+    "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.model_selection.StratifiedGroupKFold.html"
+  },
+  {
+    "number": 13,
+    "reference": "Scikit-learn developers. Common pitfalls and recommended practices. Scikit-learn 1.8.0 documentation [EB/OL]. [2026-10-27].",
+    "url": "https://scikit-learn.org/1.8/common_pitfalls.html"
+  },
+  {
+    "number": 14,
+    "reference": "Scikit-learn developers. LinearDiscriminantAnalysis. Scikit-learn 1.8.0 documentation [EB/OL]. [2026-10-27].",
+    "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html"
+  },
+  {
+    "number": 15,
+    "reference": "Scikit-learn developers. Computational performance. Scikit-learn 1.8.0 documentation [EB/OL]. [2026-10-27].",
+    "url": "https://scikit-learn.org/1.8/computing/computational_performance.html"
+  }
+]

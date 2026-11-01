@@ -1,0 +1,8 @@
+{
+  "candidate_id": "LogisticRegression__anova_300__p0004",
+  "fold": 0,
+  "stored_current_f1": 0.924973723768486,
+  "repeat_cached_f1": 0.9249737237684861,
+  "ordinary_pipeline_f1": 0.9249737237684861,
+  "note": "原包与新环境间的LR差异原因尚不能仅由这些记录确定。当前环境结果分别如上，不隐去差异。"
+}

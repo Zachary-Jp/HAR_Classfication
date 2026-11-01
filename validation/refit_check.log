@@ -1,0 +1,16 @@
+{'selection_id': 'RBF_SVM__full', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 1.9139995770001406}
+{'selection_id': 'RBF_SVM__pca', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 1.6633582300000853}
+{'selection_id': 'RBF_SVM__anova', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.6267117600000347}
+{'selection_id': 'RandomForest__full', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 20.926317118000043}
+{'selection_id': 'RandomForest__pca', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 18.734504533999825}
+{'selection_id': 'RandomForest__anova', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 12.876613744999759}
+{'selection_id': 'LogisticRegression__full', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 1.5133696130001226}
+{'selection_id': 'LogisticRegression__pca', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 1.583973238999988}
+{'selection_id': 'LogisticRegression__anova', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.7124030100003438}
+{'selection_id': 'KNN__full', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.6547701199997391}
+{'selection_id': 'KNN__pca', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.976889429000039}
+{'selection_id': 'KNN__anova', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.22931818400002157}
+{'selection_id': 'FisherLDA__full', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.214611825999782}
+{'selection_id': 'FisherLDA__pca', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.8828908250002314}
+{'selection_id': 'FisherLDA__anova', 'n': 2947, 'mismatches': 0, 'elapsed_seconds': 0.10487346399986563}
+{'candidate_id': 'LogisticRegression__anova_300__p0004', 'fold': 0, 'stored_current_f1': 0.924973723768486, 'repeat_cached_f1': 0.9249737237684861, 'ordinary_pipeline_f1': 0.9249737237684861, 'note': '原包与新环境间的LR差异原因尚不能仅由这些记录确定。当前环境结果分别如上，不隐去差异。'}

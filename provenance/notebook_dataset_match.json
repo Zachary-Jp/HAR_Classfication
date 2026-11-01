@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "activity_labels.txt",
+      "notebook_sha256": "f6e6b292704438261f0283b2a82659ab0661447dc16520938bdf379ed1bf8de0",
+      "archive_sha256": "f6e6b292704438261f0283b2a82659ab0661447dc16520938bdf379ed1bf8de0",
+      "equal": true
+    },
+    {
+      "file": "features.txt",
+      "notebook_sha256": "b384889885b1c8680ecf250e0e605b4c79536cdf09ce9f2fa7225a3c6773b5c7",
+      "archive_sha256": "b384889885b1c8680ecf250e0e605b4c79536cdf09ce9f2fa7225a3c6773b5c7",
+      "equal": true
+    },
+    {
+      "file": "train/X_train.txt",
+      "notebook_sha256": "9c1246099c8d5463779eec5a3845cc3898df9d8c715441ab2a1232d4421fc42f",
+      "archive_sha256": "9c1246099c8d5463779eec5a3845cc3898df9d8c715441ab2a1232d4421fc42f",
+      "equal": true
+    },
+    {
+      "file": "train/y_train.txt",
+      "notebook_sha256": "415b3357e2e2d5e70a45c781947c6bdd80e0410a579d862eedcd6bbce3c694ef",
+      "archive_sha256": "415b3357e2e2d5e70a45c781947c6bdd80e0410a579d862eedcd6bbce3c694ef",
+      "equal": true
+    },
+    {
+      "file": "train/subject_train.txt",
+      "notebook_sha256": "66e1e2fbe9b396fa5155f531dc3348c803f503be663e2318772d49947db9153a",
+      "archive_sha256": "66e1e2fbe9b396fa5155f531dc3348c803f503be663e2318772d49947db9153a",
+      "equal": true
+    },
+    {
+      "file": "test/X_test.txt",
+      "notebook_sha256": "99035209add50d17650e847d8a4658d784a5707466ebb7c2deb97c28e5250a78",
+      "archive_sha256": "99035209add50d17650e847d8a4658d784a5707466ebb7c2deb97c28e5250a78",
+      "equal": true
+    },
+    {
+      "file": "test/y_test.txt",
+      "notebook_sha256": "2a94cb53ca46b956c1b2aebd4a09a72badd8a8e9ea9cdfe9f31b3306a08666bb",
+      "archive_sha256": "2a94cb53ca46b956c1b2aebd4a09a72badd8a8e9ea9cdfe9f31b3306a08666bb",
+      "equal": true
+    },
+    {
+      "file": "test/subject_test.txt",
+      "notebook_sha256": "63b8c577f4a85431c06bd87f6384608c90a9f72f05c7956dd21255dc63515c07",
+      "archive_sha256": "63b8c577f4a85431c06bd87f6384608c90a9f72f05c7956dd21255dc63515c07",
+      "equal": true
+    }
+  ]
+}

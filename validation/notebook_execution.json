@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "mode": "查看已完成真实结果并核验，不重新训练",
+  "code_cells_executed": 8,
+  "errors": 0,
+  "full_training_reexecuted_inside_notebook": false,
+  "full_training_entry": "run_experiment.py已完成480/2400主搜索",
+  "stored_outputs_cleared_for_lightweight_delivery": true
+}
